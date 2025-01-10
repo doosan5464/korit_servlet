@@ -9,10 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class User { // sql에서 받아 저장할 데이터
-    private int userId;
-    private String username;
-    private String password;
-    private String name;
-    private String email;
+public class BookCategory {
+    private int categoryId;
+    private String categoryName;
 }
